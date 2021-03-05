@@ -5,9 +5,10 @@
 }
 
 body{
-    background-color: #431c9e;
+
     height: 100vw;
-    
+    background: url("Protruding-Squares.svg") ;
+    background-size: cover;
 }
 
 .icon{
@@ -24,6 +25,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 
 }
 p{
@@ -36,7 +38,8 @@ p{
     width: 350px;
     color: black;
     margin: 12px;
-    padding: 10px;
+    padding: 10px 10px 50px 10px;
+    
     border-radius: 10px;
 
 }
@@ -45,7 +48,7 @@ img, .heart{
     display: flex;
    width: 50px;
    margin: 0;
-   margin-left: 140px;
+   margin-left: 130px;
 
 }
 
